@@ -11,19 +11,19 @@
   "prov:generated":[
     {
       "@type":"deepvoc:Accuracy",
-      "prov:value":"0.62"
+      "prov:value":"0.86"
     },
     {
       "@type":"deepvoc:Precision",
-      "prov:value":"0.62"
+      "prov:value":"0.86"
     },
     {
        "@type":"deepvoc:Recall",
-      "prov:value":"0.62"
+      "prov:value":"0.86"
     },
     {
       "@type":"deepvoc:F1-Score",
-      "prov:value":"0.62"
+      "prov:value":"0.86"
     },
     {
       "@type":"deepvoc:ConfusionMatrix",
@@ -60,7 +60,7 @@
      [
       {
         "@type":"mexcore:Train",
-        "@value":"50000"
+        "@value":"60000"
       },
        {
         "@type":"mexcore:Test",
@@ -100,7 +100,7 @@
       
       {
       "@type":"mexcore:Dataset",
-        "prov:value":"Cifar10"
+        "prov:value":"Fashion_Mnist"
       }
   ],
     "prov:wasStartedBy":{
